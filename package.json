@@ -1,0 +1,19 @@
+{
+  "name": "hf_appcollector",
+  "version": "1.0.0",
+  "description": "Collects form submission data and stores it in a database.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shmakes/hf_appcollector.git"
+  },
+  "author": "Steve Schmechel",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/shmakes/hf_appcollector/issues"
+  },
+  "homepage": "https://github.com/shmakes/hf_appcollector#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
