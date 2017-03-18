@@ -9,6 +9,7 @@ exports.helloWorld = function helloWorld(req, res) {
     delete req.body.cburi;
     delete req.body.cbusr;
     delete req.body.cbpwd;
+    delete req.body.full_message;
 
     request({
         method: 'POST',
